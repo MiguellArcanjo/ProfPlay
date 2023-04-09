@@ -1,3 +1,11 @@
+@charset "UTF-8";
 body {
-  background: red;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(30, 10, 73) 39%);
+}
+
+.barraDeNavegação {
+  background: black;
+  height: 100px;
+  margin-top: -8px;
 }/*# sourceMappingURL=style.css.map */
