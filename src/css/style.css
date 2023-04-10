@@ -1,11 +1,121 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,700;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
 body {
-  background: rgb(2, 0, 36);
-  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(30, 10, 73) 39%);
+  background: rgb(104, 0, 255);
+  background: linear-gradient(90deg, rgb(104, 0, 255) 0%, rgb(68, 0, 221) 100%);
+  font-family: "Open sans";
 }
 
 .barraDeNavegação {
   background: black;
-  height: 100px;
+  height: 5rem;
   margin-top: -8px;
+}
+
+.parteLogin {
+  height: 45rem;
+  width: 35rem;
+  border: 1px solid black;
+  background: #FFF;
+  border-radius: 10px;
+}
+
+.loginText {
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 7rem;
+}
+
+.email {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.senha {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.check {
+  text-align: center;
+  margin-top: 1rem;
+  margin-right: 8rem;
+}
+
+.submit {
+  text-align: center;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.labelCheck {
+  font-family: "Oswald";
+  font-size: 14px;
+}
+
+.inputEmail {
+  font-size: 17px;
+  border: 2px solid;
+  outline: none;
+  width: 20rem;
+  height: 3rem;
+  border-radius: 20px;
+  font-family: "Oswald";
+}
+
+.inputSenha {
+  font-size: 17px;
+  border: 2px solid;
+  outline: none;
+  width: 20rem;
+  height: 3rem;
+  border-radius: 20px;
+  font-family: "Oswald";
+  font-weight: 600;
+}
+
+.submitLogin {
+  font-size: 17px;
+  border: 2px solid;
+  outline: none;
+  width: 20rem;
+  height: 3rem;
+  border-radius: 20px;
+  font-family: "Oswald";
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.createAcount {
+  position: absolute;
+  margin-top: 2rem;
+  margin-left: 13.6rem;
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.forgetPassword {
+  position: absolute;
+  margin-top: 5rem;
+  margin-left: 12.2rem;
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.icon {
+  position: relative;
+  bottom: 32rem;
+  margin-left: 55%;
+  z-index: 2;
+}
+
+.icon2 {
+  position: relative;
+  bottom: 52.5rem;
+  margin-left: 57.4%;
+  z-index: 1;
 }/*# sourceMappingURL=style.css.map */
