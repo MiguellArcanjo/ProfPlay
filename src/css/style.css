@@ -119,4 +119,100 @@ body {
   bottom: 52.5rem;
   margin-left: 57.4%;
   z-index: 1;
+}
+
+.parteRegister {
+  height: 25rem;
+  width: 35rem;
+  border: 1px solid black;
+  background: #FFF;
+  border-radius: 10px;
+  margin-top: 10%;
+  margin-left: 30%;
+}
+
+.loginRegister {
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.emailRegister {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.inputEmailRegister {
+  font-size: 17px;
+  border: 2px solid;
+  outline: none;
+  width: 20rem;
+  height: 2.5rem;
+  border-radius: 20px;
+  font-family: "Oswald";
+}
+
+.fundo-form {
+  background: black;
+  border-radius: 150px;
+  height: 2rem;
+  width: 20rem;
+  color: #FFF;
+  font-family: "Oswald";
+  margin-left: 7.5rem;
+  transition: 0.3s ease-in-out;
+}
+
+.fundo-form:hover {
+  transition: 0.3s ease-in-out;
+  background: rgb(104, 0, 255);
+  color: black;
+}
+
+.prosseguirResgiter {
+  text-align: center;
+  font-size: 19px;
+  margin-top: 3rem;
+}
+
+.dataDeNascimento {
+  border-radius: 10px;
+  height: 2rem;
+  width: 16rem;
+  border: 1px solid black;
+}
+
+.nomeDeUsuario {
+  border-radius: 10px;
+  border: 1px solid black;
+  height: 2rem;
+  width: 16rem;
+  font-size: 1.2rem;
+}
+
+.campoSenha {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.campoSenha2 {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.passwordRegister1 {
+  border-radius: 10px;
+  border: 1px solid black;
+  font-size: 1rem;
+  height: 1.7rem;
+  outline: none;
+}
+
+.passwordRegister2 {
+  border-radius: 10px;
+  border: 1px solid black;
+  font-size: 1rem;
+  height: 1.7rem;
+  outline: none;
 }/*# sourceMappingURL=style.css.map */
