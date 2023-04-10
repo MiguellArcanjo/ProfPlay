@@ -6,6 +6,7 @@ body {
     background: rgb(104,0,255);
     background: linear-gradient(90deg, rgba(104,0,255,1) 0%, rgba(68,0,221,1) 100%); 
     font-family: 'Open sans';
+    overflow-y: hidden;
 }
 
 .barraDeNavegação {
@@ -119,5 +120,5 @@ body {
     bottom: 52.5rem;
     margin-left: 57.4%;
     z-index: 1;
-    
+
 }
