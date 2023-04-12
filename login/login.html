@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProfPlay</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="shortcut icon" href="./src/image/icon.png" type="image/x-icon">
+</head>
+<body>
+    <section class="login">
+        <div class="loginEsquerda">
+            <div class="card">
+                <h1>LOGIN</h1>
+
+                <div class="input1">
+                    <label for="usuario">Usuário</label>
+                    <input type="text" name="usuario" placeholder="Usuário" required>
+                </div>
+    
+                <div class="input2">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" placeholder="Senha" required>
+                </div>
+    
+                <div class="checkremember">
+                    <input type="checkbox" name="remember" class="remember" required>
+                    <label for="remember" class="rememberLabel">Deseja se manter conectado? </label>
+                </div>
+
+                <button class="btnLogin">Login</button>
+
+                <form class="registrar" action="/register_email/register_email.html">
+                    <input type="submit" value="Criar Conta" class="criarConta">
+                </form>
+
+                <form action="">
+                    <input type="submit" value="Recuperar Senha" class="recuperarSenha">
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+
+    <script src="./src/js/main.js"></script>
+</body>
+</html>

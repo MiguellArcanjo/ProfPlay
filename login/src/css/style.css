@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap");
+body {
+  margin: 0;
+}
+
+body * {
+  box-sizing: border-box;
+  font-family: "Exo 2", sans-serif;
+}
+
+.login {
+  background-image: url(/login/src/image/fundo.jpeg);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginEsquerda {
+  border-radius: 20px;
+  width: 50vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+  background: #291e40;
+  border-radius: 20px;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.337254902);
+}
+
+.card > h1 {
+  color: #9aedb5;
+  font-weight: 800;
+  margin: 0;
+}
+
+.input1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 30px;
+}
+
+.input1 > input {
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  background: #514869;
+  color: rgba(240, 255, 255, 0.8705882353);
+  font-size: 13pt;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.337254902);
+  font-size: 12pt;
+  outline: none;
+}
+
+.input1 > label {
+  color: rgba(240, 255, 255, 0.8705882353);
+  margin-bottom: 10px;
+}
+
+.input1 > input::-moz-placeholder {
+  color: rgba(240, 255, 255, 0.8705882353);
+}
+
+.input1 > input::placeholder {
+  color: rgba(240, 255, 255, 0.8705882353);
+}
+
+.input2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 5px;
+}
+
+.input2 > input {
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  background: #514869;
+  color: rgba(240, 255, 255, 0.8705882353);
+  font-size: 13pt;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.337254902);
+  font-size: 12pt;
+  outline: none;
+}
+
+.input2 > label {
+  color: rgba(240, 255, 255, 0.8705882353);
+  margin-bottom: 10px;
+}
+
+.input2 > input::-moz-placeholder {
+  color: rgba(240, 255, 255, 0.8705882353);
+}
+
+.input2 > input::placeholder {
+  color: rgba(240, 255, 255, 0.8705882353);
+}
+
+.btnLogin {
+  width: 100%;
+  padding: 16px 0px;
+  margin: 25px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 3px;
+  background: #9aedb5;
+  box-shadow: 0px 10px 40px -16px #9aedb5;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.imgIcon1 {
+  justify-content: center;
+}
+
+.checkremember {
+  display: flex;
+  color: rgba(240, 255, 255, 0.8705882353);
+  font-size: 12pt;
+  margin-top: 10px;
+}
+
+.criarConta {
+  padding: 7px;
+  margin: 3px;
+  border-radius: 10px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 3px;
+  background: #9aedb5;
+  box-shadow: 0px 10px 40px -10px #9aedb5;
+  cursor: pointer;
+}
+
+.recuperarSenha {
+  padding: 7px;
+  margin: 3px;
+  border-radius: 10px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 3px;
+  background: #9aedb5;
+  box-shadow: 0px 10px 40px -10px #9aedb5;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+  .card {
+    width: 160%;
+    height: auto;
+  }
+}/*# sourceMappingURL=style.css.map */
