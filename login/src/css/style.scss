@@ -167,9 +167,48 @@ body * {
     cursor: pointer;
 }
 
+.olhin {
+    position: absolute;
+    top: 49.2%;
+    right: 36%;
+    transform: translateY(-50%);
+    background: url('/login/src/image/show.png');
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    // background: #FFF;
+}
+
+.olhin700px {
+    visibility: hidden;
+}
+
+
 @media only screen and (max-width: 700px) {
     .card {
         width: 160%;
         height: auto;
+    }
+}
+
+@media only screen and (max-width: 840px){
+    .olhin {
+        top: 47.5%;
+        right: 38%;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .olhin {
+        top: 49%;
+        right: 18%;
+    }
+}
+
+@media only screen and (max-width: 370px){
+    .olhin {
+        top: 47.5%;
+        right: 22%;
     }
 }
