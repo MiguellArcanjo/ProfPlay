@@ -130,9 +130,75 @@ body * {
   cursor: pointer;
 }
 
+.olhin {
+  position: absolute;
+  top: 45.3%;
+  right: 36%;
+  transform: translateY(-50%);
+  background: url("/login/src/image/show.png");
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+}
+
+.olhin1 {
+  position: absolute;
+  top: 59.3%;
+  right: 36%;
+  transform: translateY(-50%);
+  background: url("/register_password/src/image/show.png");
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+}
+
+.hide1 {
+  position: absolute;
+  top: 45.5%;
+  right: 36%;
+  transform: translateY(-50%);
+  background: url("/register_password/src/image/hide.png");
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+}
+
+.hide2 {
+  position: absolute;
+  top: 59%;
+  right: 36%;
+  transform: translateY(-50%);
+  background: url("/register_password/src/image/hide.png");
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+}
+
 @media only screen and (max-width: 700px) {
   .card {
     width: 160%;
     height: auto;
+  }
+}
+@media only screen and (max-width: 840px) {
+  .olhin {
+    top: 47.5%;
+    right: 38%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .olhin {
+    top: 49%;
+    right: 18%;
+  }
+}
+@media only screen and (max-width: 370px) {
+  .olhin {
+    top: 47.5%;
+    right: 22%;
   }
 }/*# sourceMappingURL=style.css.map */
