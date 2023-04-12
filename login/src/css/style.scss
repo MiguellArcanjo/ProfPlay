@@ -180,6 +180,19 @@ body * {
     // background: #FFF;
 }
 
+.hide {
+    position: absolute;
+    top: 49.2%;
+    right: 36%;
+    transform: translateY(-50%);
+    background: url('/login/src/image/hide.png');
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    // background: #FFF;
+}
+
 .olhin700px {
     visibility: hidden;
 }
