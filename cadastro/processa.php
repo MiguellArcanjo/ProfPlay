@@ -2,19 +2,11 @@
 $html = file_get_contents('paginaCadastro.html');
 
 $dom = new DOMDocument();
-$dom->LoadHTML($html);
+$dom->loadHTML($html);
 
 $element = $dom->getElementById('teste');
 
 $classes = explode(' ', $element->getAttribute('class'));
-
-if (in_array('teste2', $classes)) {
-    echo 'A classe "teste2" esta presente no elemento';
-}
-
-else {
-    echo 'A classe "minha classe não esta presente' ;
-}
 
 include("conexao.php");
 
@@ -31,19 +23,34 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     if (mysqli_num_rows($resultado) > 0) {
         if (in_array('teste2', $classes)) {
-            echo 'A classe "teste2" esta presente no elemento';
+        
+            $element->removeAttribute('class');
+            
+            $element->setAttribute('class', 'teste3');
+            
+            $html = $dom->saveHTML();
+            file_put_contents('paginaCadastro.html', $html);
+            header('Location: http://localhost/ProfPlay/cadastro/paginaCadastro.html');
+            
+
+        }
+
+        else {
+            $element->removeAttribute('class');
+            $element->setAttribute('class', 'teste2');
+
+            $html = $dom->saveHTML();
+            file_put_contents('paginaCadastro.html', $html);
+            header('Location: http://localhost/ProfPlay/cadastro/paginaCadastro.html');
         }
         
-        else {
-            echo 'A classe "minha classe não esta presente' ;
-        }
     }
     else {
 
         $sql = "INSERT INTO cadastro (email, datanascimento, nome, senha1, senha2) VALUES ('$email', '$datanascimento', '$nome', '$senha1', '$senha2')";
     
         if (mysqli_query($conn, $sql)) {
-            echo "Mensagem enviada com sucesso!";
+            echo "Mensagem enviada com sucesso";
         }
     
         else {
