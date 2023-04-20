@@ -45,7 +45,7 @@ body * {
   margin: 0;
 }
 
-.input1 {
+.inputs {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -54,7 +54,7 @@ body * {
   margin: 30px;
 }
 
-.input1 > input {
+.inputEmail {
   width: 100%;
   border: none;
   border-radius: 8px;
@@ -67,29 +67,20 @@ body * {
   outline: none;
 }
 
-.input1 > label {
+.labelEmail {
   color: rgba(240, 255, 255, 0.8705882353);
   margin-bottom: 10px;
 }
 
-.input1 > input::-moz-placeholder {
+.inputEmail::-moz-placeholder {
   color: rgba(240, 255, 255, 0.8705882353);
 }
 
-.input1 > input::placeholder {
+.inputEmail::placeholder {
   color: rgba(240, 255, 255, 0.8705882353);
 }
 
-.input2 {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  margin: 5px;
-}
-
-.input2 > input {
+.inputSenha {
   width: 100%;
   border: none;
   border-radius: 8px;
@@ -102,23 +93,25 @@ body * {
   outline: none;
 }
 
-.input2 > label {
+.labelSenha {
   color: rgba(240, 255, 255, 0.8705882353);
   margin-bottom: 10px;
+  padding-top: 14px;
 }
 
-.input2 > input::-moz-placeholder {
+.inputSenha::-moz-placeholder {
   color: rgba(240, 255, 255, 0.8705882353);
 }
 
-.input2 > input::placeholder {
+.inputSenha::placeholder {
   color: rgba(240, 255, 255, 0.8705882353);
 }
 
 .btnLogin {
   width: 100%;
-  padding: 16px 0px;
-  margin: 25px;
+  padding: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   border: none;
   border-radius: 10px;
   outline: none;

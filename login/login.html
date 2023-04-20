@@ -14,24 +14,22 @@
             <div class="card">
                 <h1>LOGIN</h1>
 
-                <div class="input1">
-                    <label for="usuario">Usuário</label>
-                    <input type="text" name="usuario" placeholder="Usuário" required>
-                </div>
-    
-                <div class="input2">
-                    <label for="senha">Senha</label>
-                    <input type="password" name="senha" placeholder="Senha" class="password" required>
+                <form action="" class="inputs">
+                    <label for="email" class="labelEmail">E-mail</label>
+                    <input type="text" name="email" placeholder="Digite seu E-mail" class="inputEmail" required>
+
+                    <label for="senha" class="labelSenha">Senha</label>
+                    <input type="password" name="senha" placeholder="Digite sua Senha" class="inputSenha" required>
                     <div class="olhin" onclick="showHide()"></div>
-                </div>
     
-                <div class="checkremember">
-                    <input type="checkbox" name="remember" class="remember" required>
-                    <label for="remember" class="rememberLabel">Deseja se manter conectado? </label>
-                </div>
+                    <div class="checkremember">
+                        <input type="checkbox" name="remember" class="remember" required>
+                        <label for="remember" class="rememberLabel">Deseja se manter conectado? </label>
+                    </div>
 
-                <button class="btnLogin">Login</button>
-
+                    <input type="submit" value="Login" class="btnLogin">
+                </form>
+                
                 <form class="registrar" action="http://localhost/ProfPlay/cadastro/paginaCadastro.html">
                     <input type="submit" value="Criar Conta" class="criarConta">
                 </form>
@@ -40,11 +38,13 @@
                     <input type="submit" value="Recuperar Senha" class="recuperarSenha">
                 </form>
 
+
             </div>
         </div>
     </section>
 
 
     <script src="/login/src/js/main.js"></script>
+    <script src="/login/processa.php"></script>
 </body>
 </html>
