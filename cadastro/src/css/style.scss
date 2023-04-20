@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+}
+
+body * {
+    box-sizing: border-box;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.email {
+    background-image: url(http://localhost/ProfPlay/cadastro/src/image/fundo.jpeg);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centerEmail {
+    border-radius: 20px;
+    // background: #4f2d4b;
+    width: 50vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    background: #291e40;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.card > h1{
+    color: #9aedb5;
+    font-weight: 800;
+    margin: 0;
+}
+
+.input2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 30px;
+}
+
+.input2 > .inputEmail {
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    background: #514869;
+    color: #f0ffffde;
+    font-size: 13pt;
+    box-shadow: 0px 10px 40px #00000056;
+    font-size: 12pt;
+    outline: none;
+}
+
+.input2 > .inputDate {
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    background: #514869;
+    color: #f0ffffde;
+    font-size: 13pt;
+    box-shadow: 0px 10px 40px #00000056;
+    font-size: 12pt;
+    outline: none;
+}
+
+.input2 > .inputUsuario {
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    background: #514869;
+    color: #f0ffffde;
+    font-size: 13pt;
+    box-shadow: 0px 10px 40px #00000056;
+    font-size: 12pt;
+    outline: none;
+}
+
+.senha1 {
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    background: #514869;
+    color: #f0ffffde;
+    font-size: 13pt;
+    box-shadow: 0px 10px 40px #00000056;
+    font-size: 12pt;
+    outline: none;
+}
+
+.senha2 {
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    background: #514869;
+    color: #f0ffffde;
+    font-size: 13pt;
+    box-shadow: 0px 10px 40px #00000056;
+    font-size: 12pt;
+    outline: none;
+}
+
+.labelSenha1 {
+    margin-top: 20px;
+    color: #f0ffffde;
+    margin-bottom: 10px;
+}
+
+.labelSenha2 {
+    margin-top: 20px;
+    color: #f0ffffde;
+    margin-bottom: 10px;
+}
+
+.input2 > .senha1::placeholder {
+    color: #f0ffffde;
+}
+
+.input2 > .senha2::placeholder {
+    color: #f0ffffde;
+}
+
+
+.input2 > .inputUsuario::placeholder {
+    color: #f0ffffde;
+}
+
+.input2 > .labelUsuario {
+    margin-top: 20px;
+    color: #f0ffffde;
+    margin-bottom: 10px;
+}
+
+.input2 > .labelAniversario {
+    margin-top: 20px;
+    color: #f0ffffde;
+    margin-bottom: 10px;
+}
+
+.input2 > label {
+    color: #f0ffffde;
+    margin-bottom: 10px;
+}
+
+.input2 > .inputEmail::placeholder {
+    color: #f0ffffde;
+}
+
+.input2 > .inputDate::placeholder {
+    color: #f0ffffde;
+}
+
+.prosseguir {
+    padding: 12px;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    background: #9aedb5;
+    box-shadow: 0px 10px 40px -10px #9aedb5;
+    cursor: pointer;
+}
+
+// .olhin {
+//     position: absolute;
+//     top: 45.3%;
+//     right: 36%;
+//     transform: translateY(-50%);
+//     background: url('/login/src/image/show.png');
+//     cursor: pointer;
+//     width: 30px;
+//     height: 30px;
+//     background-size: cover;
+//     // background: #FFF;
+// }
+
+// .olhin1 {
+//     position: absolute;
+//     top: 59.3%;
+//     right: 36%;
+//     transform: translateY(-50%);
+//     background: url('/register_password/src/image/show.png');
+//     cursor: pointer;
+//     width: 30px;
+//     height: 30px;
+//     background-size: cover;
+//     // background: #FFF;
+// }
+
+// .hide1 {
+//     position: absolute;
+//     top: 45.5%;
+//     right: 36%;
+//     transform: translateY(-50%);
+//     background: url('/register_password/src/image/hide.png');
+//     cursor: pointer;
+//     width: 30px;
+//     height: 30px;
+//     background-size: cover;
+// }
+
+// .hide2 {
+//     position: absolute;
+//     top: 59%;
+//     right: 36%;
+//     transform: translateY(-50%);
+//     background: url('/register_password/src/image/hide.png');
+//     cursor: pointer;
+//     width: 30px;
+//     height: 30px;
+//     background-size: cover;
+// }
+
+@media only screen and (max-width: 700px) {
+    .card {
+        width: 160%;
+        height: auto;
+    }
+}
