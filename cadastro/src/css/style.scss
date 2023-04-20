@@ -9,6 +9,7 @@ body * {
     font-family: 'Exo 2', sans-serif;
 }
 
+
 .email {
     background-image: url(http://localhost/ProfPlay/cadastro/src/image/fundo.jpeg);
     width: 100vw;
@@ -235,6 +236,13 @@ body * {
 //     height: 30px;
 //     background-size: cover;
 // }
+
+.nomedescente {
+    // position: absolute;
+    // visibility: hidden;
+    color: #9aedb5;
+}
+
 
 @media only screen and (max-width: 700px) {
     .card {
