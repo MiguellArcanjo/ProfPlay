@@ -45,7 +45,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     }
     else {
 
-        $sql = "INSERT INTO cadastro (email, datanascimento, nome, senha1, senha2) VALUES ('$email', '$datanascimento', '$nome', MD5('$senha1'))";
+        $sql = "INSERT INTO cadastro (email, datanascimento, nome, senha1, senha2) VALUES ('$email', '$datanascimento', '$nome', MD5('$senha1'), '$senha2')";
     
         if (mysqli_query($conn, $sql)) {
             echo "Mensagem enviada com sucesso";
