@@ -13,14 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+use App\Http\Controllers\CadastroControlador;
 
-Route::get('/login', function () {
-    return view(('login.login'));
-});
 
-Route::get('/paginaCadastro', function() {
-    return view(('cadastro.paginaCadastro'));
-});
+Route::post('/login', [CadastroControlador::class, 'index']);
+
+Route::get('/cadastro', [CadastroControlador::class, 'create']);
+
+Route::post('/cadastro', [CadastroControlador::class, 'store']);

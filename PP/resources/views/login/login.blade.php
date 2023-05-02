@@ -14,7 +14,8 @@
             <div class="card">
                 <h1>LOGIN</h1>
 
-                <form action="teste.php" method="POST" class="inputs">
+                <form action="/login" method="POST" class="inputs">
+                    @csrf
                     <label for="email" class="labelEmail">E-mail</label>
                     <input type="text" name="email" placeholder="Digite seu E-mail" class="inputEmail" required>
 
@@ -30,11 +31,13 @@
                     <input type="submit" value="Login" class="btnLogin">
                 </form>
                 
-                <form class="registrar" action="{{ url('paginaCadastro') }}">
+                <form class="registrar" action="{{ url('cadastro') }}" method="POST">
+                    @csrf
                     <input type="submit" value="Criar Conta" class="criarConta">
                 </form>
 
-                <form action="">
+                <form action="" method="POST">
+                    @csrf
                     <input type="submit" value="Recuperar Senha" class="recuperarSenha">
                 </form>
 
@@ -43,8 +46,5 @@
         </div>
     </section>
 
-
-    <script src="/login/src/js/main.js"></script>
-    <script src="/login/processa.php"></script>
 </body>
 </html>

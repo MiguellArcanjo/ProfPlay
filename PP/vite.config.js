@@ -5,8 +5,7 @@ export default defineConfig({
     plugins: [
         laravel({
             input: [
-                'resources/sass/cadastro/style.scss',
-                'resources/sass/login/style.scss',
+                'resources/sass/app.scss',
                 'resources/js/app.js',
             ],
             refresh: true,

@@ -14,7 +14,8 @@
             <div class="card">
                 <h1>Criar Conta</h1>
                 
-                <form action="processa.php" method="POST" class="input2">
+                <form action="/cadastro" method="POST" class="input2">
+                    @csrf
                     <label for="email">E-mail</label>
                     <input type="email" name="email" placeholder="Digite seu E-mail" class="inputEmail" required>
                     <p id="teste" class="teste2">E-mail est&aacute; sendo utilizado.</p>
@@ -41,7 +42,5 @@
         </div>
     </section>
 
-
-    <script src="./processa.php"></script>
 </body>
 </html>
