@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ProfPlay</title>
     <link rel="stylesheet" href="{{asset('sass/login/style.css')}}">
-    <link rel="shortcut icon" href="./src/image/icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="{{asset('image/icon.png')}}" type="image/x-icon">
 </head>
 <body>
     <section class="login">
@@ -14,14 +14,13 @@
             <div class="card">
                 <h1>LOGIN</h1>
 
-                <form action="/login" method="POST" class="inputs">
+                <form action="{{ url('cadastro') }}" method="POST" class="inputs">
                     @csrf
                     <label for="email" class="labelEmail">E-mail</label>
                     <input type="text" name="email" placeholder="Digite seu E-mail" class="inputEmail" required>
 
                     <label for="senha" class="labelSenha">Senha</label>
                     <input type="password" name="senha" placeholder="Digite sua Senha" class="inputSenha" required>
-                    <div class="olhin" onclick="showHide()"></div>
     
                     <div class="checkremember">
                         <input type="checkbox" name="remember" class="remember" required>
@@ -33,15 +32,13 @@
                 
                 <form class="registrar" action="{{ url('cadastro') }}" method="POST">
                     @csrf
-                    <input type="submit" value="Criar Conta" class="criarConta">
+                    <a href="/cadastro" class="criarConta">Criar Conta</a>
                 </form>
-
-                <form action="" method="POST">
+                <br>
+                <form action="{{ url('cadastro') }}" method="POST">
                     @csrf
                     <input type="submit" value="Recuperar Senha" class="recuperarSenha">
                 </form>
-
-
             </div>
         </div>
     </section>

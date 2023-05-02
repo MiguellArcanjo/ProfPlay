@@ -15,8 +15,11 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\CadastroControlador;
 
+Route::get('/login', function() {
+    return view('login.login');
+});
 
-Route::post('/login', [CadastroControlador::class, 'index']);
+// Route::match(['post'], '/login', [CadastroControlador::class, 'index']);
 
 Route::get('/cadastro', [CadastroControlador::class, 'create']);
 
